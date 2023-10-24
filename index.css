@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --1:green;
+    --2:black;
+    --3:white;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.cont{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 4rem;
+}
